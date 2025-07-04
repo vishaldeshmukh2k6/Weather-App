@@ -27,3 +27,4 @@ instance/
 # Cache
 *.cache
 *.pytest_cache
+.env

@@ -1,10 +1,14 @@
 from flask import Flask, render_template, request
 import requests
-from urllib.parse import quote  
+import os
+from urllib.parse import quote
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 
-API_KEY = '85101a50cd01f77e4f261a5039778fe9' 
+API_KEY = os.getenv('API_KEY') 
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
