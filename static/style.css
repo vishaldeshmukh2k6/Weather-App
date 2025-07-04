@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    text-align: center;
+    padding-top: 50px;
+    color: #333;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 30px;
+    animation: slideUp 1s ease-in-out;
+}
+
+input[type="text"] {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #0288d1;
+    border-radius: 25px;
+    width: 250px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #01579b;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    background-color: #0288d1;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #0277bd;
+}
+
+.weather {
+    background: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+img.icon-bounce {
+    animation: bounce 1.5s infinite;
+    margin-top: 10px;
+}
