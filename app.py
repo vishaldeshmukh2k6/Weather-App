@@ -16,7 +16,7 @@ def index():
     if request.method == 'POST':
         city = request.form['city'].strip()
         city_encoded = quote(city)
-        url = f'https://api.openweathermap.org/data/2.5/weather?q={city_encoded}&appid={API_KEY}&units=metric'
+        url = f'https://api.openweathermap.org/data/2.5/weather?q={city_encoded}&appid={API_KEY}&units=metric'  # This is a api url 
 
         print(" URL:", url)
         response = requests.get(url)
