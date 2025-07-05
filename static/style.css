@@ -87,15 +87,16 @@ button:hover {
     margin-top: 5px;
 }
 
+img.icon-bounce {
+    margin-top: 10px;
+    animation: bounce 1.8s infinite;
+}
+
 .error-text {
     color: #ffcccb;
     font-weight: bold;
 }
 
-img.icon-bounce {
-    margin-top: 10px;
-    animation: bounce 1.8s infinite;
-}
 
 /* Animations */
 @keyframes fadeIn {
